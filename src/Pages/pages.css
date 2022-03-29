@@ -1,0 +1,34 @@
+.about-background {
+  background: url("https://michaelrivas.net/images/airplane.png") no-repeat;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.projects-background {
+  background: url("https://wallpapercave.com/wp/dwwIVzJ.jpg");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-background {
+  background: url("https://www.nycgo.com/images/pages/71616/zoom-manhattan-bridge-brooklyn-nyc-3000x2000__large.jpg");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-background {
+  background: url("https://michaelrivas.net/images/foodCartPhoto.JPG");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}

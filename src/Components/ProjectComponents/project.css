@@ -1,0 +1,142 @@
+a.linkPhototoMysite {
+  align-content: center;
+  margin-left: 13%;
+  margin-right: 10%;
+  margin-top: 2%;
+}
+img.letterImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  height: 500px;
+  width: 700px;
+}
+
+a.linkPhototoMysite {
+  align-content: center;
+  margin-left: 13%;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+img.bushwickPhoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  height: 500px;
+  width: 700px;
+}
+img.collageArt {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  width: 800px;
+  height: 900px;
+}
+img.sscLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+  height: 600px;
+  width: 600px;
+}
+
+h1 {
+  color: black;
+}
+
+.video-js {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.writingHeader {
+  margin-bottom: 4%;
+}
+
+@media screen and (max-width: 900px) {
+  img.sscLogo {
+    width: 400px;
+    height: 400px;
+  }
+
+  img.collageArt {
+    width: 650px;
+    height: 700px;
+    margin-top: 3%;
+    align-content: center;
+  }
+
+  img.bushwickPhoto {
+    width: 650px;
+    height: 400px;
+    margin-top: 100px;
+  }
+
+  img.letterImage {
+    width: 650px;
+    height: 400px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  img.letterImage {
+    height: 300px;
+    width: 350px;
+    margin-top: 2%;
+  }
+
+  img.bushwickPhoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    height: 300px;
+    width: 350px;
+  }
+
+  img.collageArt {
+    width: 95%;
+    height: 40%;
+    margin-top: 20px;
+    align-content: center;
+  }
+  img.sscLogo {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  video {
+    width: 320px;
+    margin-top: 150px;
+  }
+  img.bushwickPhoto {
+    width: 320px;
+    margin-top: 100px;
+  }
+  img.collageArt {
+    width: 320px;
+  }
+  img.letterImage {
+    margin-top: 100px;
+  }
+  h1 {
+    margin-bottom: 50px;
+  }
+
+  .responsiveImage {
+    background-size: cover;
+    height: auto;
+    width: 100%;
+  }
+}

@@ -1,0 +1,43 @@
+.mainDiv {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+}
+
+.inputField {
+  margin: 10px;
+  width: 65%;
+  height: 30px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 2px;
+}
+
+.inputButton {
+  padding: 7px;
+  background-color: #05868a;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.inputButton:hover {
+  background-color: #099499;
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+}
+
+@media only screen and (max-width: 375px) {
+  .inputField {
+    width: 65%;
+  }
+
+  .inputDiv {
+    margin-right: 11px;
+  }
+}
